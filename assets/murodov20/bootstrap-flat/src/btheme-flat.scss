@@ -5,3 +5,6 @@
   border-radius: $rad;
 }
 
+.panel {
+  @include border-radius(1px);
+}
